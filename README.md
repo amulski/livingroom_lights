@@ -1,5 +1,5 @@
 # livingroom_lights
-Arduino coupled with LED strip that lights up the living room every evening. This code uses the [FastLED](http://fastled.io/) library 
+Arduino coupled with LED strip that lights up the living room every evening. This code uses the `FastLED` [library](http://fastled.io/).
 
 ## Current Hardware
 [Arduino Uno - R3](https://www.sparkfun.com/products/11021)
