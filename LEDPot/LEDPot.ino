@@ -8,7 +8,7 @@
 
 // Define the array of leds
 CRGB leds[NUM_LEDS];
-//define potentiometer pins, button to switch between R, G, and B
+//define potentiometer pins, one potentiometer for R, G, and B
 int redPin = A0;    // select the input pin for the potentiometer
 int greenPin = A1;
 int bluePin = A2;  
@@ -53,13 +53,4 @@ void loop() {
   delay(100);
   FastLED.show();
     
-  /*delay(500);
-  // Now turn the LED off, then pause
-  
-  for(int i = 0; i < NUM_LEDS; ++i) {
-    leds[i] = CRGB::Black;
-  }
-  FastLED.show();
-  delay(500);
-  */
 }
